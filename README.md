@@ -1,29 +1,11 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+JavaScript for [Zotero](https://www.zotero.org) to change the date format to YYYY-MM-DD in all selected referencies. 
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Copy the script `zotero_date.js` to `Tools/Developer/Run_JavaScript` into the `Code` window.
+* Add month names if needed (look for `var months` and `findIndex`), currently the script understands English and German months.
+* For test runs activate the line after `ACTIVATE FOR TEST RUNS` and comment out the next line.
+* Select the referencies in the main zotero window and press `Run`.
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
